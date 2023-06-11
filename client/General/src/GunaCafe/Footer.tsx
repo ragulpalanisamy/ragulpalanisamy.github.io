@@ -2,13 +2,17 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="text-sm">
       <p>
-        <a href="https://www.freecodecamp.org" target="_blank">
+        <a
+          href="https://www.freecodecamp.org"
+          target="_blank"
+          className="text-[black] visited:text-[black] hover:text-[brown] active:text-[brown]"
+        >
           Visit our website
         </a>
       </p>
-      <p className="address">123 Mannuzhi Ariyalur TN</p>
+      <p className="mb-[5px]">123 Mannuzhi Ariyalur TN</p>
     </footer>
   );
 }
