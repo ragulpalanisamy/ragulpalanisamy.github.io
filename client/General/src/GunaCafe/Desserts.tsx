@@ -3,7 +3,7 @@ import React from "react";
 export default function Desserts() {
   return (
     <section>
-      <h2>Desserts</h2>
+      <h2 className="text-center text-3xl">Desserts</h2>
       <img
         src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg"
         alt="pie icon"
