@@ -1,6 +1,6 @@
 import React from "react";
 
-import Coffee from "./coffee";
+import Coffee from "./Coffee";
 import Dessert from "./Desserts";
 import Footer from "./Footer";
 
