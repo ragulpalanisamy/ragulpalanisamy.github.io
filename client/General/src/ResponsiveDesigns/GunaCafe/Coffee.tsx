@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Coffee() {
   return (
     <>
@@ -29,6 +27,9 @@ export default function Coffee() {
           <p className="flavor">Mocha</p>
           <p className="price">4.50</p>
         </article>
+        <div>
+          <a href="/flexbox">Flex Design</a>
+        </div>
       </section>
     </>
   );

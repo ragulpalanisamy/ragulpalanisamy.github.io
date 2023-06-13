@@ -1,5 +1,3 @@
-import React from "react";
-
 import Coffee from "./Coffee";
 import Dessert from "./Desserts";
 import Footer from "./Footer";
