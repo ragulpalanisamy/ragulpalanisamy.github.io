@@ -15,6 +15,9 @@ export default function guna() {
           <h1 className="text-center text-[40px] mt-0 mb-[15px]">GUNA CAFE</h1>
           <p className="text-center italic">Est. 2020</p>
           <hr />
+          <div>
+            <a href="/register">Register</a>
+          </div>
           <Coffee />
           <Dessert />
         </main>
