@@ -1,3 +1,3 @@
 export interface IFlexBoxProps {
-  imageSrc: string;
+  imgsrc: string;
 }

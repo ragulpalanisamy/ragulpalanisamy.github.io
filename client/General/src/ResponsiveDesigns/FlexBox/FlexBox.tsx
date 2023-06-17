@@ -1,18 +1,19 @@
-interface IFlexBox {
-  image: { imgSrc: string }[];
-}
-export default function FlexBox(props: IFlexBox): JSX.Element {
-  const { image } = props;
+import "../../index.css";
+import { IFlexBoxProps } from "./types";
+
+export default function FlexBox({ image }: { image: IFlexBoxProps[] }) {
   return (
     <>
       <header className="header">
         <h1>css flexbox photo gallery</h1>
       </header>
-      {image.map((item, index) => (
-        <div key={index} className="gallery">
-          <img src={item.imgSrc} />
-        </div>
-      ))}
+      <div className="gallery">
+        {image.map((item, index) => (
+          <div key={index}>
+            <img src={item.imgsrc} />
+          </div>
+        ))}
+      </div>
     </>
   );
 }

@@ -1,11 +1,9 @@
-import React from "react";
-
 export default function Footer() {
   return (
     <footer className="text-sm">
       <p>
         <a
-          href="https://www.freecodecamp.org"
+          href="/boxmodel"
           target="_blank"
           className="text-[black] visited:text-[black] hover:text-[brown] active:text-[brown]"
         >
