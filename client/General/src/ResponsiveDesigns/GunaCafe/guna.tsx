@@ -3,6 +3,7 @@ import Dessert from "./Desserts";
 import Footer from "./Footer";
 
 import "../../App.css";
+import Typography from "../Typography/Typography";
 
 export default function guna() {
   return (
@@ -23,6 +24,11 @@ export default function guna() {
         </main>
         <hr className="mt-[25px]" />
         <Footer />
+      </div>
+      <div>
+        <p>
+          <Typography />
+        </p>
       </div>
     </section>
   );
