@@ -82,6 +82,9 @@ export default function PicassoPainting() {
             </div>
             <div id="guitar-neck"></div>
           </div>
+          <a href="/piano">
+            <div>piano</div>
+          </a>
         </div>
       </div>
     </div>
