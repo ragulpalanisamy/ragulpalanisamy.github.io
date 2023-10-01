@@ -10,7 +10,9 @@ export default function FlexBox({ image }: { image: IFlexBoxProps[] }) {
       <div className="gallery">
         {image.map((item, index) => (
           <div key={index}>
-            <img src={item.imgsrc} />
+            <a href="/painting">
+              <img src={item.imgsrc} />
+            </a>
           </div>
         ))}
       </div>
